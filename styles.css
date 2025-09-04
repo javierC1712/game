@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(45deg, #ff0000, #0000ff);
+    padding: 30px;
+    color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.juegos, .galeria, .interactivo {
+    margin: 40px 0;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+}
+
+ul i {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.imagenes {
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.imagenes img:hover {
+    transform: scale(1.1);
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background: #ff0000;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px
+}
+
+button:hover {
+    background: #cc0000;
+}
