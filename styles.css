@@ -37,6 +37,7 @@ ul i {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .imagenes {
@@ -62,3 +63,4 @@ button {
 button:hover {
     background: #cc0000;
 }
+
